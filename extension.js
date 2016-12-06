@@ -29,7 +29,8 @@
           command: ':rainbowfrog:',  
           rank: 'user', 
           type: 'exact', 
-          functionality: function (chat, cmd) API.on(API.CHAT, function(data){
+          functionality: function (chat, cmd) 
+           API.on(API.CHAT, function(data){
           if(:rainbowfrog:){
            then API.sendChat(":rainbowfrog:");
             }
